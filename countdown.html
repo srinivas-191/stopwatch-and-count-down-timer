@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CountDown</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <style>
+    .clear-btn{
+      display: none;
+    }
+  </style>
+  <body>
+    <div>
+      <input type="number" id="count" class="my-5 mx-auto d-flex p-3" placeholder="enter how many seconds want to count" style="width: 28rem;">
+    </div>
+    <div class="d-flex align-items-center mx-auto p-5 card">
+        <h3 class="display text-center border mx-auto my-3 p-3 rounded shadow text-success">00</h3>
+        <button class="btn btn-success start-btn">start</button>
+        <button class="btn btn-success clear-btn">clear</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="./countdown.js"></script>
+  </body>
+</html>
